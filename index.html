@@ -1,0 +1,289 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet">
+    <title>iCoder</title>
+  </head>
+  <body>
+
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+    -->
+    <style>
+        *{
+            font-family: 'Poppins';
+            color: white;
+        }
+    </style>
+    <header class="p-3 bg-dark text-white">
+        <div class="container">
+          <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
+            <a style="font-size: 25px;font-family: 'Poppins';text-decoration: none;color: white;margin: 5px;" alt="iCoder" href="#" class="logo">iCoder</a>
+    
+            <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
+              <li><a style="font-family: 'Poppins';" href="#" class="nav-link px-2 text-white">Home</a></li>
+              <li><a style="font-family: 'Poppins';" href="#" class="nav-link px-2 text-white">Features</a></li>
+              <li><a style="font-family: 'Poppins';" href="#" class="nav-link px-2 text-white">Pricing</a></li>
+              <li><a style="font-family: 'Poppins';" href="#" class="nav-link px-2 text-white">FAQs</a></li>
+              <li><a style="font-family: 'Poppins';" href="#" class="nav-link px-2 text-white">About</a></li>
+            </ul>
+    
+            <form class="col-12 col-lg-auto mb-3 mb-lg-0 me-lg-3">
+              <input style="font-family: 'Poppins';" type="search" class="form-control form-control-dark" placeholder="Search..." aria-label="Search">
+            </form>
+    
+            <div class="text-end">
+              <button style="font-family: 'Poppins';" type="button" class="btn btn-outline-light me-2" data-bs-target="#exampleModal" data-bs-toggle="modal">Login</button>
+              <button style="font-family: 'Poppins';" type="button" class="btn btn-warning" data-bs-toggle="modal" data-bs-target="#exampleModal1">Sign-up</button>
+            </div>
+          </div>
+        </div>
+      </header>
+      <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="codeimg.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5 style="font-family: 'Poppins';">Welcome to iCoder</h5>
+              <!-- <p style="font-family: 'Poppins';">Text</p> -->
+              <button type="button" class="btn btn-warning" data-bs-target="#card1" data-bs-toggle="card">Coding</button>
+              <button type="button" class="btn btn-warning">Programming</button>
+              <button type="button" class="btn btn-warning">Tech</button>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="slider1.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5 style="font-family: 'Poppins';">Web Development</h5>
+              <!-- <p style="font-family: 'Poppins';">HTML, CSS, JavaScript and more...</p> -->
+              <button class="btn btn-warning">HTML</button>
+              <button class="btn btn-warning">CSS</button>
+              <button class="btn btn-warning">JavaScript</button>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="slider3.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5 style="font-family: 'Poppins';">Python Programming</h5>
+              <!-- <p style="font-family: 'Poppins';">Some representative placeholder content for the third slide.</p> -->
+              <button class="btn btn-warning">Python</button>
+              <button class="btn btn-warning">C++</button>
+              <button class="btn btn-warning">Java</button>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+  <!-- Modal -->
+  <div  class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div style="background-color: rgb(33,37,41);" class="modal-header">
+          <h5 style="color: white;" class="modal-title" id="exampleModalLabel">Log In to iCoder</h5>
+        </div>
+        <div class="modal-body" style="background-color: rgb(33,37,41);">
+            <form>
+                <div class="mb-3">
+                  <label for="exampleInputEmail1" class="form-label">Email address</label>
+                  <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                  <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+                </div>
+                <div class="mb-3">
+                  <label for="exampleInputPassword1" class="form-label">Password</label>
+                  <input type="password" class="form-control" id="exampleInputPassword1">
+                </div>
+                <div class="mb-3 form-check">
+                  <!-- Nothing Here😑 -->
+                </div>
+              </form>
+        </div>
+        <div style="background-color: rgb(33,37,41);" class="modal-footer">
+          <button type="button" class="btn btn-outline-light" data-bs-dismiss="modal">Cancel</button>
+          <button type="submit" class="btn btn-warning" data-bs-dismiss="modal">Submit</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+    <!-- Modal1 -->
+    <div  class="modal fade" id="exampleModal1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div style="background-color: rgb(33,37,41);" class="modal-header">
+              <h5 style="color: white;" class="modal-title" id="exampleModalLabel">Create an Account</h5>
+            </div>
+            <div class="modal-body" style="background-color: rgb(33,37,41);">
+                <form class="row g-3">
+                    <div class="col-md-6">
+                      <label for="inputEmail4" class="form-label">Email</label>
+                      <input placeholder="johndoe@email.com" type="email" class="form-control" id="inputEmail4">
+                    </div>
+                    <div class="col-md-6">
+                      <label for="inputPassword4" class="form-label">Password</label>
+                      <input placeholder="" type="password" class="form-control" id="inputPassword4">
+                    </div>
+                    <div class="col-12">
+                      <label for="inputAddress" class="form-label">Address</label>
+                      <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
+                    </div>
+                    <div class="col-12">
+                      <label for="inputAddress2" class="form-label">Address 2</label>
+                      <input type="text" class="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor">
+                    </div>
+                    <div class="col-md-6">
+                      <label for="inputCity" class="form-label">City</label>
+                      <input placeholder="New York" type="text" class="form-control" id="inputCity">
+                    </div>
+                    <div class="col-md-4">
+                      <label for="inputState" class="form-label">State</label>
+                      <select id="inputState" class="form-select">
+                        <option selected>Option 1</option>
+                        <option>Option 2</option>
+                      </select>
+                    </div>
+                    <div class="col-md-2">
+                      <label for="inputZip" class="form-label">Zip</label>
+                      <input type="text" class="form-control" id="inputZip">
+                    </div>
+                    <div class="col-12">
+                      <div class="form-check">
+                        <!-- nothing -->
+                      </div>
+                    </div>
+                    <div class="col-12">
+                      
+                    </div>
+                  </form>
+            </div>
+            <div style="background-color: rgb(33,37,41);" class="modal-footer">
+              <button type="button" class="btn btn-outline-light" data-bs-dismiss="modal">Cancel</button>
+              <button type="submit" class="btn btn-warning" data-bs-dismiss="modal">Submit</button>
+            </div>
+          </div>
+        </div>
+      </div>
+<div  class="container mx-4 my-4">
+
+      <div class="row row-cols-1 row-cols-md-3 g-4" id="card1">
+        <div class="col">
+          <div class="card">
+            <img src="https://media.nature.com/lw800/magazine-assets/d41586-019-00653-5/d41586-019-00653-5_16459152.jpg" class="card-img-top" alt="..." height="280" width="200">
+            <div style="background-color: rgb(33,37,41);border-radius: 0px 0px 5px 5px; border: none;" class="card-body">
+              <h5  class="card-title">Coding</h5>
+              <p class="card-text">Coding involves tasks such as analysis, generating algorithms, profiling algorithms' accuracy and resource consumption, and the implementation of algorithms.</p>
+              <button type="button" class="btn btn-outline-warning">Read More ></button>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="https://img.freepik.com/free-vector/laptop-with-program-code-isometric-icon-software-development-programming-applications-dark-neon_39422-971.jpg" class="card-img-top" alt="..." height="280" width="200">
+            <div style="background-color: rgb(33,37,41);border-radius: 0px 0px 5px 5px; border: none;" class="card-body">
+              <h5 class="card-title">Programming</h5>
+              <p class="card-text">Computer programming is the process of performing a particular computation, usually by designing/building an executable computer program.</p>
+              <button type="button" class="btn btn-outline-warning">Read More ></button>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <!-- <img src="https://www.agilitypr.com/wp-content/uploads/2020/02/technology-1-1.jpg" class="card-img-top" alt="..." height="280" width="200"> -->
+            <img src="https://www.thoughtco.com/thmb/ybOUx8MATOpz1i3zwli-DE7Wax0=/2121x1414/filters:fill(auto,1)/GettyImages-1066987348-66e3879d27d244b3b8276484db518bb5.jpg" class="card-img-top" alt="..." height="280" width="200">
+            <div style="background-color: rgb(33,37,41);border-radius: 0px 0px 5px 5px; border: none;" class="card-body">
+              <h5 class="card-title">Tech</h5>
+              <p class="card-text">Technology is the sum of any techniques, skills, methods, and processes used in the production of goods or services or in the accomplishment of objectives.</p>
+              <button type="button" class="btn btn-outline-warning">Read More ></button>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="https://www.udacity.com/blog/wp-content/uploads/2020/06/HTML_Blog-scaled.jpeg" class="card-img-top" alt="..." height="280" width="200">
+            <div style="background-color: rgb(33,37,41);border-radius: 0px 0px 5px 5px; border: none;" class="card-body">
+              <h5 class="card-title">HTML</h5>
+              <p class="card-text">The HyperText Markup Language or HTML is the standard markup language for documents designed to be displayed in a web browser. It can be assisted by CSS</p>
+              <button type="button" class="btn btn-outline-warning">Read More ></button>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="https://miro.medium.com/max/1400/1*973sut14fgZUHhdMC2fPZw.jpeg" class="card-img-top" alt="..." height="280" width="200">
+            <div style="background-color: rgb(33,37,41);border-radius: 0px 0px 5px 5px; border: none;" class="card-body">
+              <h5 class="card-title">CSS</h5>
+              <p class="card-text">Cascading Style Sheets is a style sheet language used for describing the presentation of a document written in a markup language such as HTML.</p>
+              <button type="button" class="btn btn-outline-warning">Read More ></button>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="https://dom4j.org/wp-content/uploads/javascript.jpg" class="card-img-top" alt="..." height="280" width="200">
+            <div style="background-color: rgb(33,37,41);border-radius: 0px 0px 5px 5px; border: none;" class="card-body">
+              <h5 class="card-title">JavaScript</h5>
+              <p class="card-text">JavaScript, often abbreviated JS, is a programming language that is one of the core technologies of the World Wide Web, alongside HTML and CSS.</p>
+              <button type="button" class="btn btn-outline-warning">Read More ></button>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="https://www.zdnet.com/a/img/resize/96a96e9d54b3e80463ae411734edc44a6320aa10/2021/09/02/f9723f89-2e71-4a46-a59f-f6838771f2ed/python-code-magnifying-glass-programming-language.jpg?width=1200&height=1200&fit=crop&auto=webp" class="card-img-top" alt="..." height="280" width="200">
+            <div style="background-color: rgb(33,37,41);border-radius: 0px 0px 5px 5px; border: none;" class="card-body">
+              <h5 class="card-title">Python</h5>
+              <p class="card-text">Python is a high-level, general-purpose programming language. Its design philosophy emphasizes code readability with the use of significant indentation.</p>
+              <button type="button" class="btn btn-outline-warning">Read More ></button>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="https://prod-discovery.edx-cdn.org/media/course/image/62ed92c9-22b6-43a6-a755-0f296d0f64ce-8b3c8aa8f0af.small.jpeg" class="card-img-top" alt="..." height="280" width="200">
+            <div style="background-color: rgb(33,37,41);border-radius: 0px 0px 5px 5px; border: none;" class="card-body">
+              <h5 class="card-title">C++</h5>
+              <p class="card-text">C++ is a general-purpose programming language created by Bjarne Stroustrup as an extension of the C programming language, or "C with Classes"</p>
+              <button type="button" class="btn btn-outline-warning">Read More ></button>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="https://fiverr-res.cloudinary.com/images/q_auto,f_auto/gigs/163573830/original/324587223ae05acc0eb660f6e943048f8f20a265/c-and-java-programming.png" class="card-img-top" alt="..." height="280" width="200">
+            <div style="background-color: rgb(33,37,41);border-radius: 0px 0px 5px 5px; border: none;" class="card-body">
+              <h5 class="card-title">Java</h5>
+              <p class="card-text">Java is a high-level, class-based, object-oriented programming language that is designed to have as few implementation dependencies as possible.</p>
+              <button type="button" class="btn btn-outline-warning">Read More ></button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
